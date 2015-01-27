@@ -1,5 +1,5 @@
 %global majorver 1.7.0
-%global minorver 40
+%global minorver 76
 %global releasever 2
 %global priority 170%{minorver}
 %global javaver %{majorver}.%{minorver}
@@ -16,7 +16,7 @@
 
 Name:	%{shortname}
 Version: %{javaver}
-Release: puzzle.%{releasever}%{?dist}
+Release: %{releasever}%{?dist}.gd
 Epoch: 1
 Summary: Oracle Java SE Runtime Environment
 Group: Development/Languages
